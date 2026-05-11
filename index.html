@@ -2,112 +2,168 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AF Trans - Tour & Rent Car</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AF Trans | Tour & Rent Car Profesional</title>
 
-  <!-- SEO -->
-  <meta name="description" content="AF Trans - Sewa mobil & open trip Jogja murah terpercaya.">
-  <meta name="keywords" content="sewa mobil jogja, open trip jogja, rental mobil murah">
+  <meta name="description" content="AF Trans - Sewa mobil & open trip terpercaya, harga terjangkau, pelayanan profesional.">
 
   <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-
-  <!-- ICON -->
   <script src="https://unpkg.com/feather-icons"></script>
 </head>
 
-<body class="bg-gray-50 font-sans">
+<body class="font-sans text-gray-700">
 
-<!-- Navbar -->
-<nav class="bg-white/80 backdrop-blur shadow-md fixed w-full z-50">
-  <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+<!-- NAVBAR -->
+<nav class="bg-white shadow fixed w-full z-50">
+  <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
     <div class="flex items-center gap-2">
-      <img src="Logo_AF trans.png" class="h-10" />
-      <span class="font-bold text-lg">AF Trans</span>
+      <img src="logo.png" class="h-10">
+      <span class="font-bold text-xl">AF Trans</span>
     </div>
+
+    <div class="hidden md:flex gap-6 font-medium">
+      <a href="#" class="hover:text-blue-600">Home</a>
+      <a href="#layanan" class="hover:text-blue-600">Layanan</a>
+      <a href="#trip" class="hover:text-blue-600">Trip</a>
+      <a href="#kontak" class="hover:text-blue-600">Kontak</a>
+    </div>
+
+    <a href="https://wa.me/6282342813413"
+       class="bg-blue-600 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-700">
+       Booking
+    </a>
   </div>
 </nav>
 
-<!-- Hero -->
-<section class="h-screen flex items-center justify-center bg-gradient-to-r from-blue-600 to-cyan-500 text-white text-center px-6">
-  <div data-aos="fade-up">
-    <h1 class="text-4xl md:text-6xl font-bold mb-4">Liburan Nyaman Tanpa Ribet</h1>
-    <p class="text-lg mb-6">Sewa mobil & open trip terpercaya dengan harga terjangkau</p>
-    <a href="https://wa.me/082342813413" class="bg-white text-blue-600 px-6 py-3 rounded-full font-bold shadow-lg hover:scale-105 transition">
-      Pesan Sekarang
+<!-- HERO -->
+<section class="h-screen bg-[url('https://images.unsplash.com/photo-1501785888041-af3ef285b470')] bg-cover bg-center flex items-center justify-center text-white">
+  <div class="bg-black/60 p-10 rounded-xl text-center">
+    <h1 class="text-5xl font-bold mb-4">Perjalanan Nyaman & Profesional</h1>
+    <p class="mb-6">Sewa mobil & open trip terpercaya dengan pelayanan terbaik</p>
+    <a href="https://wa.me/6282342813413"
+       class="bg-green-500 px-6 py-3 rounded-full font-bold hover:scale-105 transition">
+       Pesan Sekarang
     </a>
   </div>
 </section>
 
-<!-- Layanan -->
-<section class="py-16 bg-gray-100 px-6">
-  <h2 class="text-3xl font-bold text-center mb-10">Layanan Kami</h2>
-  <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-    <div class="bg-white p-6 rounded-2xl shadow">
-      <h3 class="font-bold text-xl">Sewa Mobil</h3>
-      <p>Harian, mingguan, hingga bulanan.</p>
+<!-- TRUST -->
+<section class="py-16 text-center bg-gray-100">
+  <h2 class="text-3xl font-bold mb-10">Dipercaya Banyak Pelanggan</h2>
+  <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+    <div>
+      <h3 class="text-4xl font-bold text-blue-600">500+</h3>
+      <p>Pelanggan</p>
     </div>
-    <div class="bg-white p-6 rounded-2xl shadow">
-      <h3 class="font-bold text-xl">Open Trip</h3>
-      <p>Paket wisata murah & seru.</p>
+    <div>
+      <h3 class="text-4xl font-bold text-blue-600">100+</h3>
+      <p>Trip Sukses</p>
     </div>
-    <div class="bg-white p-6 rounded-2xl shadow">
-      <h3 class="font-bold text-xl">Drop Off</h3>
-      <p>Antar jemput bandara & luar kota.</p>
+    <div>
+      <h3 class="text-4xl font-bold text-blue-600">5⭐</h3>
+      <p>Rating</p>
     </div>
   </div>
 </section>
 
-<!-- Open Trip -->
-<section class="py-16 px-6 max-w-5xl mx-auto">
-  <h2 class="text-3xl font-bold text-center mb-10">🔥 Open Trip Favorit</h2>
-  <div class="bg-white p-8 rounded-2xl shadow-lg">
-    <h3 class="text-2xl font-bold">Yogyakarta 26-27 September 2026</h3>
-    <p class="text-xl text-blue-600 font-bold mt-2">Rp 280.000 / orang</p>
+<!-- LAYANAN -->
+<section id="layanan" class="py-16 max-w-7xl mx-auto px-6">
+  <h2 class="text-3xl font-bold text-center mb-10">Layanan Kami</h2>
 
-    <a href="https://wa.me/082342813413"
-       class="inline-block mt-6 bg-blue-600 text-white px-6 py-3 rounded-full font-bold hover:scale-105 transition">
+  <div class="grid md:grid-cols-3 gap-6">
+    <div class="p-6 bg-white rounded-xl shadow hover:shadow-xl transition">
+      <i data-feather="truck" class="mb-3"></i>
+      <h3 class="font-bold text-xl">Sewa Mobil</h3>
+      <p>Kendaraan bersih & nyaman dengan driver profesional</p>
+    </div>
+
+    <div class="p-6 bg-white rounded-xl shadow hover:shadow-xl transition">
+      <i data-feather="map" class="mb-3"></i>
+      <h3 class="font-bold text-xl">Open Trip</h3>
+      <p>Paket wisata murah & lengkap ke berbagai destinasi</p>
+    </div>
+
+    <div class="p-6 bg-white rounded-xl shadow hover:shadow-xl transition">
+      <i data-feather="navigation" class="mb-3"></i>
+      <h3 class="font-bold text-xl">Drop Off</h3>
+      <p>Antar jemput bandara & luar kota dengan aman</p>
+    </div>
+  </div>
+</section>
+
+<!-- TRIP -->
+<section id="trip" class="py-16 bg-gray-100">
+  <h2 class="text-3xl font-bold text-center mb-10">Paket Favorit</h2>
+
+  <div class="max-w-5xl mx-auto bg-white p-8 rounded-xl shadow-lg">
+    <h3 class="text-2xl font-bold">Yogyakarta 26-27 September 2026</h3>
+    <p class="text-blue-600 text-xl font-bold mt-2">Rp 280.000 / orang</p>
+
+    <ul class="mt-4 list-disc ml-5">
+      <li>Obelix Hills</li>
+      <li>Pantai Parangtritis</li>
+      <li>Malioboro</li>
+    </ul>
+
+    <a href="https://wa.me/6282342813413"
+       class="mt-6 inline-block bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700">
        Booking Sekarang
     </a>
   </div>
 </section>
 
-<!-- Kontak -->
-<section class="py-16 text-center">
-  <h2 class="text-3xl font-bold mb-6">Kontak Kami</h2>
+<!-- TESTIMONI -->
+<section class="py-16 max-w-6xl mx-auto text-center">
+  <h2 class="text-3xl font-bold mb-10">Apa Kata Mereka?</h2>
 
-  <div class="flex flex-col items-center gap-4">
-
-    <!-- WhatsApp -->
-    <a href="https://wa.me/082342813413" target="_blank"
-       class="flex items-center gap-2 bg-green-500 text-white px-6 py-3 rounded-full shadow hover:scale-105 transition">
-       <i data-feather="phone"></i> WhatsApp
-    </a>
-
-    <!-- Instagram -->
-    <a href="https://www.instagram.com/af.trans1?igsh=YmpubHVmNjNiOXNh" target="_blank"
-       class="flex items-center gap-2 bg-pink-500 text-white px-6 py-3 rounded-full shadow hover:scale-105 transition">
-       <i data-feather="instagram"></i> Instagram
-    </a>
-
+  <div class="grid md:grid-cols-3 gap-6">
+    <div class="bg-white p-6 shadow rounded-xl">⭐️⭐️⭐️⭐️⭐️<br>Pelayanan terbaik!</div>
+    <div class="bg-white p-6 shadow rounded-xl">⭐️⭐️⭐️⭐️⭐️<br>Sangat nyaman</div>
+    <div class="bg-white p-6 shadow rounded-xl">⭐️⭐️⭐️⭐️⭐️<br>Harga terjangkau</div>
   </div>
 </section>
 
-<!-- Tombol WA Melayang -->
-<a href="https://wa.me/082342813413"
-   class="fixed bottom-5 right-5 bg-green-500 text-white p-4 rounded-full shadow-lg hover:scale-110 transition">
+<!-- CTA -->
+<section class="bg-blue-600 text-white text-center py-16">
+  <h2 class="text-3xl font-bold mb-4">Siap Liburan?</h2>
+  <p class="mb-6">Hubungi kami sekarang sebelum kehabisan!</p>
+
+  <a href="https://wa.me/6282342813413"
+     class="bg-white text-blue-600 px-6 py-3 rounded-full font-bold">
+     Chat WhatsApp
+  </a>
+</section>
+
+<!-- KONTAK -->
+<section id="kontak" class="py-16 text-center">
+  <h2 class="text-3xl font-bold mb-6">Kontak Kami</h2>
+
+  <div class="flex flex-col items-center gap-4">
+    <a href="https://wa.me/6282342813413" class="flex gap-2 bg-green-500 text-white px-6 py-3 rounded-full">
+      <i data-feather="phone"></i> WhatsApp
+    </a>
+
+    <a href="https://instagram.com/aftrans" class="flex gap-2 bg-pink-500 text-white px-6 py-3 rounded-full">
+      <i data-feather="instagram"></i> Instagram
+    </a>
+  </div>
+</section>
+
+<!-- FLOAT WA -->
+<a href="https://wa.me/6282342813413"
+   class="fixed bottom-5 right-5 bg-green-500 text-white p-4 rounded-full shadow-lg">
    💬
 </a>
 
-<!-- Footer -->
-<footer class="bg-gray-800 text-white text-center p-4">
-  <p>© 2026 AF Trans</p>
+<!-- FOOTER -->
+<footer class="bg-gray-900 text-white text-center p-6">
+  <p class="font-bold">AF Trans</p>
+  <p class="text-sm">Tour & Rent Car Profesional</p>
+  <p class="mt-2 text-xs">© 2026 All Rights Reserved</p>
 </footer>
 
 <script>
-  AOS.init();
-  feather.replace();
+feather.replace()
 </script>
 
 </body>
